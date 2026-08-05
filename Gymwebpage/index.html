@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Fitness-where we build characters</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<style>
+ 
+
+    body{
+        margin: 0px;
+        padding:0px;
+        background:url('anastase-maragos-9dzWZQWZMdE-unsplash.jpg');
+       background-size: cover;
+        font-family: 'Bitcount Prop Single', sans-serif;
+
+    }
+   .left{
+    position:absolute;
+    top:20px;
+    left:60px;
+    color:white;
+    display: inline-block;
+    
+   
+
+    }
+   .center{
+    color:white;
+    
+    display:block;
+    margin:20px auto;
+    width:33%;
+
+    }
+  .right{
+    color:white;
+    display:inline-block;
+    
+    position: absolute;
+    top: 20px;
+    right: 34px;
+
+    }
+    .navbar{
+        display:inline-block;
+       
+    }
+    .navbar li{
+        color:white;
+        display: inline-block;
+
+    }
+    .navbar li a{
+          font-family: 'Bitcount Prop Single', sans-serif;
+        color: white;
+        text-decoration: none;
+        padding: 4px 10px;
+        font-size:19px;
+    }
+    .navbar li a:hover{
+        color:red;
+    }
+    .left img{
+        margin-left:28px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+   .right .btn{
+    border-radius: 10px;
+    padding: 4px 14px;
+    margin:0px;
+    color:white;
+   background-color: darkred;
+     font-family: 'Bitcount Prop Single', sans-serif;
+
+   } 
+   .left div{
+    text-align: center;
+    font-size:19px;
+      font-family: 'Bitcount Prop Single', sans-serif;
+   }
+   .container{
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+       margin: 106px 80px;
+       padding:75px;
+       width:33%;
+    font-family: 'Bitcount Prop Single', sans-serif;
+   
+   }
+   .container form input{
+     font-family: 'Bitcount Prop Single', sans-serif;
+    display: block;
+    margin:10px;
+    color: white;
+    background-color: dimgrey;
+    border-radius:4px 4px 4px 4px;
+    border:3px solid black;
+   }
+   .container form button{
+     font-family: 'Bitcount Prop Single', sans-serif;
+    display: block;
+    margin:10px;
+    color: white;
+    background-color: rgb(255, 3, 3);
+    border-radius:4px;
+    cursor: pointer;
+   }
+  .container input::placeholder{
+    color:black;
+  } 
+  
+  .container form button:hover{
+    background-color: darkred;
+  }
+  footer{
+    text-align: center;
+    color:red;
+    margin-top: 20px;
+
+
+  }
+  .footer {
+  margin:0px;
+  }
+  
+   
+
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+          <img src="162.jpg" alt="Elite Fitness">
+          <div>Elite fitness</div>
+        </div>
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+           
+        </div>
+        <div class="right">
+            <button class="btn">Try us free</button>
+            <button class="btn">Login</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Enroll with us for a big change</h1>
+       <form action="noaction.php">
+     <input type="text" placeholder="Enter your name" >
+      <input type="email" placeholder="Enter your email" >
+      <input type="numer" placeholder="conatact number">
+       <input type="number" placeholder="Enter your age" >
+        <input type="text" placeholder="Enter your location" >
+        <button type="submit">Start your journey</button>
+        <button type="reset">Clear</button>
+       </form>
+
+    </div>
+    <footer>
+        <div class="footer" >
+            <p>&copy; 2026 Elite Fitness. All rights reserved.</p>
+            <p>Made by Subhan </p>
+            <p> </p>
+           
+        </div>
+    </footer>
+    
+</body>
+</html>
